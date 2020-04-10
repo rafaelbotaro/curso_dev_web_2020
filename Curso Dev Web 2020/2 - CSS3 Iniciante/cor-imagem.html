@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cor e Imagem de Fundo</title>
+
+        <style type="text/css">
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            body{
+                background-image: url('imagens/yoshi.png');
+                
+                background-repeat: no-repeat;
+                /* Com o background-repeat podemos marcar: 
+                        repeat-x, repeat-y, nor-repeat, repeat
+                */
+
+                background-attachment: fixed;
+                /* Com o background-attachment podemos marcar: 
+                       scrool, fixed
+                */
+
+                background-position: center center;
+                /* Com o background-position podemos marcar: 
+                        - primeiro valor: lef, center, right
+                        - segundo valor: top, center, botton
+                */
+            }
+
+            h1{
+                text-align: center;
+            }
+
+            p{
+                padding: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 35px;
+                line-height: 40px;
+                text-align: justify;
+            }
+
+            .fundo{
+                background-color: blue;
+                color: aliceblue;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 20px;
+            }
+
+            /*
+            .fundo{
+                background: blue url('imagens/yoshi.png') repeat-x scroll top;
+            }
+            */
+
+        </style>
+
+    </head>
+
+    <body >
+        
+        <h1 class="fundo">LOREM IPSUM DOLOR</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit eleniti, corrupti illum elitadii.</p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, corrupti illum suscipit quis assumenda obcaecati quasi unde temporibus a expedita aliquid incidunt dignissimos architecto, dolor ipsam facilis debitis aut delectus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, corrupti illum suscipit quis assumenda obcaecati quasi unde temporibus a expedita aliquid incidunt dignissimos architecto, dolor ipsam facilis debitis aut delectus?Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        
+    </body>
+
+</html>

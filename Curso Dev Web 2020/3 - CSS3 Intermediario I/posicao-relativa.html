@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Posicionamento Relativo</title>
+
+        <!-- Quatro tipos de posicionamentos: Estático, Relativo, Absoluto e Fixo -->
+
+        <style type="text/css">
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+
+            h1{
+                text-align: center;
+                padding: 20px;
+                text-decoration: underline;
+            }
+
+            p{
+                width: 300px;
+                text-align: justify;
+                color: white;
+                padding: 20px;
+            }
+
+            #container{
+                background: blue;
+                width: 800px;
+                margin: 10px auto;
+            }
+
+            .relativo{
+                background: black;
+                position: relative;
+                right: 80px;
+                top: -5px;
+            }
+
+             /* Ao declararmos position:relative sozinha, não causa nenhum efeito no posicionamento. Se usarmos ela em conjunto com as propriedades top, right, bottom e left, movimenta o bloco de sua posição inicial para uma posição conforme declarado nas propriedades citadas. O bloco sai de sua posição original e o espaço que ela ocupava é preservado. */
+           
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <h1>Posicionamentos</h1>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p class="relativo">Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+        </div>
+
+    </body>
+
+</html>

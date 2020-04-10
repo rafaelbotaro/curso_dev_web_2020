@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Posicionamento Fixo</title>
+
+        <!-- Quatro tipos de posicionamentos: Estático, Relativo, Absoluto e Fixo -->
+
+        <style type="text/css">
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+
+            h1{
+                text-align: center;
+                padding: 20px;
+                text-decoration: underline;
+            }
+
+            p{
+                width: 300px;
+                text-align: justify;
+                color: white;
+                padding: 20px;
+            }
+
+            #container{
+                background: blue;
+                width: 800px;
+                margin: 10px auto;
+            }
+
+            .fixo{
+                width: 10px;
+                height: 10px;
+                background: black;
+                position: fixed;
+                right: 300px;
+                bottom: 15px;
+            }
+
+             /* O valor fixed usado em position deixa o bloco posicionado de maneira fixa em relação a uma referência. O contexto de posicionamento é sempre a área de renderização, exemplo, canto superior esquerdo da tela do navegador. O bloco com esse valor não se movimenta quando há rolagem na página. O IE6 não suporta essa declaração. */
+           
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <h1>Posicionamentos</h1>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p class="fixo">^</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+            <p>Lorem ipsum dolor sit amet consec tetur, adipi sicing elit. Maiores obca ecati repudia indae totam recusa ndae veniam iste corporis, dolorem facere, qui minima.</p>
+
+
+        </div>
+
+    </body>
+
+</html>

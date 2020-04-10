@@ -1,0 +1,98 @@
+/*
+    Seletor Universal
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+    Seletor de Elemento
+*/
+
+body{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding: 15px;
+}
+
+p{
+    padding: 15px;
+}
+
+a{
+    padding: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*
+    Seletor de Classe
+*/
+
+.verde{
+    color: green;
+    padding: 15px;
+}
+
+/*
+    Seletor de Classe com Elemento
+*/
+
+p.verde{
+    color: green;
+    padding: 15px;
+}
+
+/*
+    Seletor de ID
+*/
+
+#cabecalho{
+    color: red;
+    padding: 15px;
+}
+
+/*
+    Seletor de Descendente
+*/
+
+p a{
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: palevioletred;
+}
+
+/*
+    Seletor de Filho
+*/
+
+li>a{
+    color: green;
+    text-decoration: none;
+}
+
+/*
+    Seletor de Irmão Adjacente
+*/
+
+h1+p{
+    color: mediumblue;
+}
+
+/*
+    Seletor de Irmão Geral
+*/
+
+h2~p{
+    color: mediumvioletred;
+}

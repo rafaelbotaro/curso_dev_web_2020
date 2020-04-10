@@ -1,0 +1,53 @@
+*{
+    color: red;
+}
+
+/*
+
+    Herança
+
+    Temos sempre que aplicar primeiro as formatações mais genéricas e depois as mais específicas.
+    Isso porque as mais genéricas serão aplicadas em todo o documento, já as mais específicas serão aplicadas em partes documento.
+
+       Quando temos dois seletores iguais, o último é o que sempre será aplicado, a não ser caso se use o importante. Exemplo:
+
+    p{
+        color: blue !important; 
+    }
+
+    p{
+        color: red;
+    }
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumblue;
+    margin: 50px;
+    text-align: justify;
+}
+
+/*
+
+    Especificidade
+
+    Especificidade é quando definimos um seletor mais específico. ou seja, se um seletor for mais específico que outro, a regra mais específica será aplicada (terá precedência sobre as regras mais gerais.
+
+*/
+
+h1{
+    color: black;
+}
+
+p{      /* Aplicado em 3° lugar */
+    color: black;    /* Estou sendo específico em relação a cor do h2 */
+}
+
+p.verde{    /* Aplicado em 2° lugar */
+    color: green;   /* Estou sendo mais específico ainda ao h2 criando uma class */
+}
+
+p#azul{     /* Aplicado em 1° lugar */
+    color: blue;  /* Estou sendo ainda mais específico ainda ao h2 criando um ID */
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sobrepondo Elemetos</title>
+
+        <style type="text/css">
+
+            /* Ao usar z-index, quanto maior o número, mais à frente o elemento aparece na página web */
+
+            .conteudo1{
+                background: blue;
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                z-index: 1;
+            }
+
+            .conteudo2{
+                background: yellow;
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                top: 70px;
+                left: 70px;
+                z-index: 2;
+            }
+
+            .conteudo3{
+                background: red;
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                top: 140px;
+                left: 140px;
+                z-index: 3;
+            }
+
+            .conteudo4{
+                background: green;
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                top: 210px;
+                left: 210px;
+                z-index: 0;
+            }
+           
+           
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="conteudo1">
+            
+        </div>
+
+        <div class="conteudo2">
+            
+        </div>
+
+        <div class="conteudo3">
+            
+        </div>
+
+        <div class="conteudo4">
+            
+        </div>
+
+    </body>
+
+</html>

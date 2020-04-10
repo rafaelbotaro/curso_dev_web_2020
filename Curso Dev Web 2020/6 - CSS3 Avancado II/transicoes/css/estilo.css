@@ -1,0 +1,33 @@
+/*
+
+    Transições
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    background: royalblue;
+}
+
+#caixa:hover{
+    width: 600px;
+    background: yellow;
+    
+    /*
+    -webkit-transition: widht 3s, background 3s;
+    -moz-transition: widht 3s, background 3s;
+    -o-transition: widht 3s, background 3s;
+    transition: widht 3s, background 3s;
+    */
+
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+}

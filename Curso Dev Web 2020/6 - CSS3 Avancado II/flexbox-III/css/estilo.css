@@ -1,0 +1,38 @@
+/*
+
+    Flexbox
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#conteudo{
+    background: #dcdcdc;
+    height: 575px;
+    display: flex;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: white;
+    border: 1px solid royalblue;
+    
+    /* flex-grow define a proporção de espaço ocupado por um item*/
+    flex-grow: 0;
+}
+
+.item1{
+    flex-grow: 1;
+}
+
+.item2{
+    flex-grow: 2;
+}

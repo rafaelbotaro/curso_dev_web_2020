@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    padding: 30px 40px;
+    background: steelblue;
+    text-align: center;
+    color: white;
+    font-size: 210%;
+    letter-spacing: 2px;
+}
+
+table{
+    margin: 30px auto;
+    width: 600px;
+    border-collapse: separate;
+}
+
+th, td{
+    padding: 8px;
+}
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    font-size: 105%;
+    letter-spacing: 0.1em;
+}
+
+tr.alterna{
+    background-color: #efefef;
+}
+
+tr:hover.marca{
+    background-color: #c5dbee;
+}
+
+.numero{
+    text-align: right;
+}

@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: royalblue;
+   padding: 50px;
+   margin: 25px;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+#caixa2{
+    width: 300px;
+    height: 300px;
+    background: pink;
+    margin: 25px;
+    float: left;
+}
+

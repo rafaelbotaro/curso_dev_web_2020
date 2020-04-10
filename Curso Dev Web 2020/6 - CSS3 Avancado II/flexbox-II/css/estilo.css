@@ -1,0 +1,59 @@
+/*
+
+    Flexbox
+
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#conteudo{
+    background: #dcdcdc;
+    height: 250px;
+    display: flex;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: white;
+    border: 1px solid royalblue;
+}
+
+/*
+
+    Definindo a ordem de cada ítem
+
+*/
+
+.ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+
+.ordem3{
+    order: 3;
+}
+
+.ordem4{
+    order: 4;
+}
+
+/*
+
+    Definindo a ordem de um único ítem
+
+*/
+
+.ordem{
+    order: -1;
+}

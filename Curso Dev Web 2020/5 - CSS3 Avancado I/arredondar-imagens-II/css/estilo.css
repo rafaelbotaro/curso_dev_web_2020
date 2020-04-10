@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+/*  Aqui o arredondamento é feito usando imagens prontas*/
+
+/*      Exemplo 1       */
+.caixa{
+    width: 400px;
+    background: #dedede url(../imagens/topo.png) no-repeat top left;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.caixa h2{
+    padding: 20px;
+}
+
+.caixa p{
+    font-size: 18px;
+    padding: 0 20px 20px 20px;
+    background: url(../imagens/baixo.png) no-repeat left bottom;
+}
+
+/*      Exemplo 2       */
+.caixa2{
+    width: 400px;
+    background: #dedede url(../imagens/fundo-arredondamento.png) repeat-y;
+    text-align: justify;
+}
+
+.caixa2 h2{
+    padding: 20px;
+    background: url(../imagens/topo2.png) no-repeat left top;
+}
+
+.caixa2 p{
+    padding: 0 20px 10px 20px;
+    margin-bottom: 0;
+}
+.caixa2 .ultimo{
+    background: url(../imagens/baixo2.png) no-repeat left bottom;
+    width: 400px;
+    height: 24px;
+}

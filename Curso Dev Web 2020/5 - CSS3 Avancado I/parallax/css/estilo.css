@@ -1,0 +1,88 @@
+/*
+
+    Configurações padrão da página
+
+*/
+
+body, html{
+    margin: 0;
+    height: 100%;
+    font: 16px "Lato", sans-serif;
+}
+
+.conteudo{
+    color: #585858;
+    background: white;
+    text-align: justify;
+    padding: 100px 80px;
+    line-height: 35px;
+}
+
+.conteudo h2{
+    font-size: 25px;
+    color: #484848;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 18px;
+}
+
+/*
+
+    Configurações do parallax
+
+*/
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+    position: relative;
+    height: 100%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1{
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+.caixa2{
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+.caixa3{
+    background-image: url(../imagens/imagem4.jpg);
+}
+
+.caixa4{
+    background-image: url(../imagens/imagem6.jpg);
+}
+
+.titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titulo span.box{
+    color: white;
+    background-color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.rodape{
+    padding: 100px;
+    background: rgb(24, 24, 24);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
